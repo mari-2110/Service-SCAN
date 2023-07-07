@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Ferry';
+  src: url('./assets/ferry_black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  height: calc(100vh - 230px);
+}

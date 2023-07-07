@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    background-color: inherit;
+}
+
+.navbar_active {
+    display: flex;
+    background-color: #029491;
+}
+
+.img {
+    margin-right: 20px;
+}
+
+.logo {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.logo_white {
+    background-color: #029491;
+}
+
+@media all and (max-width: 500px) {
+    .img {
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+}

@@ -1,0 +1,59 @@
+.main {
+    padding: 69px 60px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header {
+    font-size: 40px;
+    font-family: Ferry;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    width: 509px;
+}
+
+.par {
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-top: 36px;
+    width: 447px;
+}
+
+.img {
+    margin-top: -60px;
+}
+
+@media all and (max-width: 500px) {
+
+    .main {
+        padding: 20px 17px 20px 14px;
+    }
+
+    .header {
+        font-size: 28px;
+        letter-spacing: 0.28px;
+        width: 95%;
+    }
+
+    .par {
+        font-size: 18px;
+        margin-top: 21px;
+        width: 100%;
+    }
+    
+    .img {
+        margin-top: 26px;
+        width: 100%;
+        height: auto;
+    }
+}

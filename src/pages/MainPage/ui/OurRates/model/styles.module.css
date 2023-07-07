@@ -1,0 +1,35 @@
+.main {
+    padding: 60px;
+}
+
+.header {
+    font-size: 45px;
+    font-family: Ferry;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.container_rates {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+@media all and (max-width: 500px) {
+    .main {
+        padding: 14px;
+    }
+
+    .header {
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+
+    .container_rates {
+        margin-top: 37px;
+        justify-content: center;
+    }
+}
